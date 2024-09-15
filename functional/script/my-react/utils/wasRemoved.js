@@ -1,0 +1,1 @@
+export const wasRemoved = (next) => (key) => !(key in next);

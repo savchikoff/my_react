@@ -1,0 +1,1 @@
+export const wasAdded = (prev, next) => (key) => prev[key] !== next[key];

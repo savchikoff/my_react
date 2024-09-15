@@ -1,0 +1,1 @@
+export const formatEvent = (event) => event.toLowerCase().substring(2);

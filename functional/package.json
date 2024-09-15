@@ -1,0 +1,17 @@
+{
+  "name": "functional",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.7",
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "snowpack": "^3.8.8"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  }
+}

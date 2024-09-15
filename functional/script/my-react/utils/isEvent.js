@@ -1,0 +1,1 @@
+export const isEvent = (key) => key.startsWith('on');
